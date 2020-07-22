@@ -1,0 +1,525 @@
+-- Using CATKIN_DEVEL_PREFIX: /home/kict/KICT_MP/catkin_ws/devel
+-- Using CMAKE_PREFIX_PATH: /home/kict/KICT_MP/catkin_ws/devel;/opt/ros/melodic
+-- This workspace overlays: /home/kict/KICT_MP/catkin_ws/devel;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.14", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/kict/KICT_MP/catkin_ws/build/test_results
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.14") 
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 13 packages in topological order:
+-- ~~  - robot_upstart
+-- ~~  - cam_checker
+-- ~~  - chapter2_tutorials
+-- ~~  - my_location
+-- ~~  - serial_interface
+-- ~~  - snap_around_test
+-- ~~  - actionlib_tutorials
+-- ~~  - xsens_msgs
+-- ~~  - client_interface
+-- ~~  - cam_viewer
+-- ~~  - robot
+-- ~~  - spectator
+-- ~~  - xsens_driver
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'robot_upstart'
+-- ==> add_subdirectory(robot_upstart)
+-- +++ processing catkin package: 'cam_checker'
+-- ==> add_subdirectory(cam_checker)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'chapter2_tutorials'
+-- ==> add_subdirectory(chapter2_tutorials)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- chapter2_tutorials: 1 messages, 1 services
+-- +++ processing catkin package: 'my_location'
+-- ==> add_subdirectory(my_location)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- my_location: 1 messages, 0 services
+-- +++ processing catkin package: 'serial_interface'
+-- ==> add_subdirectory(serial_interface)
+-- +++ processing catkin package: 'snap_around_test'
+-- ==> add_subdirectory(snap_around_test)
+-- snap_around_test kerosine
+-- +++ processing catkin package: 'actionlib_tutorials'
+-- ==> add_subdirectory(actionlib_tutorials)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Generating .msg files for action actionlib_tutorials/Fibonacci /home/kict/KICT_MP/catkin_ws/src/actionlib_tutorials/action/Fibonacci.action
+Generating for action Fibonacci
+-- actionlib_tutorials: 7 messages, 0 services
+-- +++ processing catkin package: 'xsens_msgs'
+-- ==> add_subdirectory(xsens_mti_ros_node/src/xsens_msgs)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- xsens_msgs: 11 messages, 0 services
+-- +++ processing catkin package: 'client_interface'
+-- ==> add_subdirectory(client_interface)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'cam_viewer'
+-- ==> add_subdirectory(cam_viewer)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'robot'
+-- ==> add_subdirectory(robot)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- +++ processing catkin package: 'spectator'
+-- ==> add_subdirectory(spectator)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- spectator: 0 messages, 7 services
+-- +++ processing catkin package: 'xsens_driver'
+-- ==> add_subdirectory(xsens_mti_ros_node/src/xsens_driver)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kict/KICT_MP/catkin_ws/build
+Scanning dependencies of target std_msgs_generate_messages_py
+Scanning dependencies of target _chapter2_tutorials_generate_messages_check_deps_chapter2_msg1
+Scanning dependencies of target std_msgs_generate_messages_cpp
+Scanning dependencies of target _chapter2_tutorials_generate_messages_check_deps_chapter2_srv1
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+Scanning dependencies of target std_msgs_generate_messages_eus
+Scanning dependencies of target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+Scanning dependencies of target std_msgs_generate_messages_nodejs
+[  0%] Built target _chapter2_tutorials_generate_messages_check_deps_chapter2_srv1
+Scanning dependencies of target _catkin_empty_exported_target
+[  0%] Built target std_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_py
+[  0%] Built target _chapter2_tutorials_generate_messages_check_deps_chapter2_msg1
+[  0%] Built target _catkin_empty_exported_target
+Scanning dependencies of target rosgraph_msgs_generate_messages_nodejs
+Scanning dependencies of target rosgraph_msgs_generate_messages_lisp
+Scanning dependencies of target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_cpp
+Scanning dependencies of target rosgraph_msgs_generate_messages_cpp
+Scanning dependencies of target roscpp_generate_messages_lisp
+Scanning dependencies of target roscpp_generate_messages_nodejs
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+Scanning dependencies of target roscpp_generate_messages_eus
+Scanning dependencies of target roscpp_generate_messages_py
+Scanning dependencies of target _my_location_generate_messages_check_deps_gps_data
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_py
+Scanning dependencies of target example1_b
+Scanning dependencies of target my_location
+Scanning dependencies of target serial_interface
+[  0%] Building CXX object my_location/CMakeFiles/my_location.dir/src/my_location.cpp.o
+[  1%] Building CXX object chapter2_tutorials/CMakeFiles/example1_b.dir/src/example1_b.cpp.o
+[  1%] Building CXX object serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.o
+[  1%] Built target _my_location_generate_messages_check_deps_gps_data
+Scanning dependencies of target snap_around_node
+[  1%] Building CXX object snap_around_test/CMakeFiles/snap_around_node.dir/src/snap_around_node.cpp.o
+[  2%] Building CXX object serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.o
+[  2%] Building CXX object my_location/CMakeFiles/my_location.dir/src/parser.cpp.o
+[  3%] Linking CXX shared library /home/kict/KICT_MP/catkin_ws/devel/lib/libmy_location.so
+[  3%] Building CXX object serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.o
+[  3%] Built target my_location
+Scanning dependencies of target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionGoal
+[  3%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionGoal
+Scanning dependencies of target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionFeedback
+[  3%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionFeedback
+Scanning dependencies of target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionResult
+[  3%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciActionResult
+Scanning dependencies of target _actionlib_tutorials_generate_messages_check_deps_FibonacciResult
+[  3%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciResult
+Scanning dependencies of target actionlib_msgs_generate_messages_py
+[  3%] Built target actionlib_msgs_generate_messages_py
+Scanning dependencies of target _actionlib_tutorials_generate_messages_check_deps_FibonacciFeedback
+[  3%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciFeedback
+Scanning dependencies of target _actionlib_tutorials_generate_messages_check_deps_FibonacciGoal
+[  3%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciGoal
+Scanning dependencies of target _actionlib_tutorials_generate_messages_check_deps_FibonacciAction
+[  3%] Built target _actionlib_tutorials_generate_messages_check_deps_FibonacciAction
+[  4%] Linking CXX shared library /home/kict/KICT_MP/catkin_ws/devel/lib/libserial_interface.so
+Scanning dependencies of target actionlib_msgs_generate_messages_cpp
+[  4%] Built target actionlib_msgs_generate_messages_cpp
+Scanning dependencies of target actionlib_msgs_generate_messages_eus
+[  4%] Built target actionlib_msgs_generate_messages_eus
+Scanning dependencies of target actionlib_msgs_generate_messages_lisp
+[  4%] Built target actionlib_msgs_generate_messages_lisp
+Scanning dependencies of target actionlib_msgs_generate_messages_nodejs
+[  4%] Built target actionlib_msgs_generate_messages_nodejs
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_sensorSample
+[  4%] Built target serial_interface
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_sensorSample
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_ImuSensorSample
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_gnssSample
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_ImuSensorSample
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_gnssSample
+Scanning dependencies of target sensor_msgs_generate_messages_eus
+[  4%] Built target sensor_msgs_generate_messages_eus
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_GnssSensorSample
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_positionEstimate
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_GnssSensorSample
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_orientationEstimate
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_positionEstimate
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_BaroSensorSample
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_orientationEstimate
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_BaroSensorSample
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_baroSample
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_Internal
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_baroSample
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_XsensQuaternion
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_Internal
+Scanning dependencies of target _xsens_msgs_generate_messages_check_deps_velocityEstimate
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_XsensQuaternion
+Scanning dependencies of target sensor_msgs_generate_messages_py
+[  4%] Built target sensor_msgs_generate_messages_py
+Scanning dependencies of target sensor_msgs_generate_messages_cpp
+[  4%] Built target sensor_msgs_generate_messages_cpp
+Scanning dependencies of target sensor_msgs_generate_messages_lisp
+[  4%] Built target _xsens_msgs_generate_messages_check_deps_velocityEstimate
+[  4%] Built target sensor_msgs_generate_messages_lisp
+Scanning dependencies of target sensor_msgs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_py
+[  4%] Built target sensor_msgs_generate_messages_nodejs
+[  4%] Built target geometry_msgs_generate_messages_py
+Scanning dependencies of target geometry_msgs_generate_messages_nodejs
+Scanning dependencies of target geometry_msgs_generate_messages_eus
+[  4%] Built target geometry_msgs_generate_messages_nodejs
+[  4%] Built target geometry_msgs_generate_messages_eus
+Scanning dependencies of target geometry_msgs_generate_messages_cpp
+[  4%] Built target geometry_msgs_generate_messages_cpp
+Scanning dependencies of target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target _spectator_generate_messages_check_deps_get_float_value
+[  5%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/snap_around_test/snap_around_node
+[  5%] Built target geometry_msgs_generate_messages_lisp
+Scanning dependencies of target _spectator_generate_messages_check_deps_set_val
+[  5%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/chapter2_tutorials/example1_b
+[  5%] Built target _spectator_generate_messages_check_deps_get_float_value
+[  5%] Built target _spectator_generate_messages_check_deps_set_val
+Scanning dependencies of target _spectator_generate_messages_check_deps_get_uint_value
+Scanning dependencies of target _spectator_generate_messages_check_deps_get_str
+[  5%] Built target _spectator_generate_messages_check_deps_get_str
+[  5%] Built target _spectator_generate_messages_check_deps_get_uint_value
+Scanning dependencies of target _spectator_generate_messages_check_deps_empty
+Scanning dependencies of target _spectator_generate_messages_check_deps_get_str_list
+[  5%] Built target snap_around_node
+Scanning dependencies of target _spectator_generate_messages_check_deps_set_target
+[  5%] Built target _spectator_generate_messages_check_deps_empty
+[  5%] Built target _spectator_generate_messages_check_deps_get_str_list
+Scanning dependencies of target chapter2_tutorials_generate_messages_py
+[  5%] Built target _spectator_generate_messages_check_deps_set_target
+Scanning dependencies of target chapter2_tutorials_generate_messages_cpp
+[  6%] Generating Python from MSG chapter2_tutorials/chapter2_msg1
+Scanning dependencies of target chapter2_tutorials_generate_messages_eus
+[  7%] Generating C++ code from chapter2_tutorials/chapter2_msg1.msg
+[  8%] Generating EusLisp code from chapter2_tutorials/chapter2_msg1.msg
+[  8%] Built target example1_b
+Scanning dependencies of target chapter2_tutorials_generate_messages_lisp
+[  9%] Generating Lisp code from chapter2_tutorials/chapter2_msg1.msg
+[  9%] Generating Lisp code from chapter2_tutorials/chapter2_srv1.srv
+[  9%] Generating EusLisp code from chapter2_tutorials/chapter2_srv1.srv
+[  9%] Built target chapter2_tutorials_generate_messages_lisp
+[  9%] Generating Python code from SRV chapter2_tutorials/chapter2_srv1
+Scanning dependencies of target chapter2_tutorials_generate_messages_nodejs
+[ 10%] Generating Javascript code from chapter2_tutorials/chapter2_msg1.msg
+[ 10%] Generating C++ code from chapter2_tutorials/chapter2_srv1.srv
+[ 10%] Generating EusLisp manifest code for chapter2_tutorials
+[ 10%] Generating Javascript code from chapter2_tutorials/chapter2_srv1.srv
+[ 11%] Generating Python msg __init__.py for chapter2_tutorials
+[ 11%] Built target chapter2_tutorials_generate_messages_nodejs
+Scanning dependencies of target example1_a
+[ 12%] Building CXX object chapter2_tutorials/CMakeFiles/example1_a.dir/src/example1_a.cpp.o
+[ 12%] Generating Python srv __init__.py for chapter2_tutorials
+[ 12%] Built target chapter2_tutorials_generate_messages_cpp
+Scanning dependencies of target my_location_generate_messages_py
+[ 13%] Generating Python from MSG my_location/gps_data
+[ 13%] Built target chapter2_tutorials_generate_messages_py
+Scanning dependencies of target my_location_generate_messages_cpp
+[ 13%] Generating C++ code from my_location/gps_data.msg
+[ 13%] Generating Python msg __init__.py for my_location
+[ 13%] Built target my_location_generate_messages_py
+Scanning dependencies of target my_location_generate_messages_eus
+[ 13%] Built target my_location_generate_messages_cpp
+[ 14%] Generating EusLisp code from my_location/gps_data.msg
+Scanning dependencies of target my_location_generate_messages_lisp
+[ 15%] Generating Lisp code from my_location/gps_data.msg
+[ 15%] Generating EusLisp manifest code for my_location
+[ 15%] Built target my_location_generate_messages_lisp
+Scanning dependencies of target my_location_generate_messages_nodejs
+[ 15%] Generating Javascript code from my_location/gps_data.msg
+[ 15%] Built target my_location_generate_messages_nodejs
+Scanning dependencies of target test_serial
+[ 15%] Building CXX object serial_interface/CMakeFiles/test_serial.dir/src/test.cpp.o
+[ 15%] Built target chapter2_tutorials_generate_messages_eus
+Scanning dependencies of target actionlib_tutorials_generate_messages_py
+[ 15%] Generating Python from MSG actionlib_tutorials/FibonacciResult
+[ 15%] Generating Python from MSG actionlib_tutorials/FibonacciActionGoal
+[ 16%] Generating Python from MSG actionlib_tutorials/FibonacciAction
+[ 16%] Generating Python from MSG actionlib_tutorials/FibonacciActionResult
+[ 17%] Generating Python from MSG actionlib_tutorials/FibonacciActionFeedback
+[ 17%] Generating Python from MSG actionlib_tutorials/FibonacciFeedback
+[ 18%] Generating Python from MSG actionlib_tutorials/FibonacciGoal
+[ 18%] Built target my_location_generate_messages_eus
+Scanning dependencies of target actionlib_tutorials_generate_messages_cpp
+[ 18%] Generating C++ code from actionlib_tutorials/FibonacciResult.msg
+[ 18%] Generating Python msg __init__.py for actionlib_tutorials
+[ 18%] Generating C++ code from actionlib_tutorials/FibonacciActionGoal.msg
+[ 18%] Built target actionlib_tutorials_generate_messages_py
+Scanning dependencies of target actionlib_tutorials_generate_messages_eus
+[ 18%] Generating EusLisp code from actionlib_tutorials/FibonacciResult.msg
+[ 20%] Generating EusLisp code from actionlib_tutorials/FibonacciActionGoal.msg
+[ 21%] Generating C++ code from actionlib_tutorials/FibonacciAction.msg
+[ 21%] Generating EusLisp code from actionlib_tutorials/FibonacciAction.msg
+[ 21%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/chapter2_tutorials/example1_a
+[ 21%] Generating EusLisp code from actionlib_tutorials/FibonacciActionResult.msg
+[ 21%] Generating C++ code from actionlib_tutorials/FibonacciActionResult.msg
+[ 21%] Built target example1_a
+Scanning dependencies of target actionlib_tutorials_generate_messages_lisp
+[ 22%] Generating Lisp code from actionlib_tutorials/FibonacciResult.msg
+[ 23%] Generating EusLisp code from actionlib_tutorials/FibonacciActionFeedback.msg
+[ 23%] Generating Lisp code from actionlib_tutorials/FibonacciActionGoal.msg
+[ 23%] Generating EusLisp code from actionlib_tutorials/FibonacciFeedback.msg
+[ 25%] Generating Lisp code from actionlib_tutorials/FibonacciAction.msg
+[ 25%] Generating C++ code from actionlib_tutorials/FibonacciActionFeedback.msg
+[ 26%] Generating Lisp code from actionlib_tutorials/FibonacciActionResult.msg
+[ 26%] Generating EusLisp code from actionlib_tutorials/FibonacciGoal.msg
+[ 27%] Generating Lisp code from actionlib_tutorials/FibonacciActionFeedback.msg
+[ 27%] Generating C++ code from actionlib_tutorials/FibonacciFeedback.msg
+[ 27%] Generating EusLisp manifest code for actionlib_tutorials
+[ 27%] Generating Lisp code from actionlib_tutorials/FibonacciFeedback.msg
+[ 27%] Generating Lisp code from actionlib_tutorials/FibonacciGoal.msg
+[ 27%] Built target actionlib_tutorials_generate_messages_lisp
+Scanning dependencies of target actionlib_tutorials_generate_messages_nodejs
+[ 28%] Generating C++ code from actionlib_tutorials/FibonacciGoal.msg
+[ 29%] Generating Javascript code from actionlib_tutorials/FibonacciResult.msg
+[ 29%] Generating Javascript code from actionlib_tutorials/FibonacciActionGoal.msg
+[ 30%] Generating Javascript code from actionlib_tutorials/FibonacciAction.msg
+[ 30%] Built target actionlib_tutorials_generate_messages_cpp
+[ 30%] Generating Javascript code from actionlib_tutorials/FibonacciActionResult.msg
+Scanning dependencies of target xsens_msgs_generate_messages_eus
+[ 30%] Generating EusLisp code from xsens_msgs/orientationEstimate.msg
+[ 31%] Generating Javascript code from actionlib_tutorials/FibonacciActionFeedback.msg
+[ 31%] Generating Javascript code from actionlib_tutorials/FibonacciFeedback.msg
+[ 32%] Generating EusLisp code from xsens_msgs/baroSample.msg
+[ 33%] Generating Javascript code from actionlib_tutorials/FibonacciGoal.msg
+[ 33%] Generating EusLisp code from xsens_msgs/positionEstimate.msg
+[ 33%] Built target actionlib_tutorials_generate_messages_nodejs
+Scanning dependencies of target xsens_msgs_generate_messages_py
+[ 34%] Generating Python from MSG xsens_msgs/orientationEstimate
+[ 35%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/serial_interface/test_serial
+[ 36%] Generating EusLisp code from xsens_msgs/ImuSensorSample.msg
+[ 36%] Generating Python from MSG xsens_msgs/baroSample
+[ 36%] Generating EusLisp code from xsens_msgs/sensorSample.msg
+[ 36%] Built target test_serial
+Scanning dependencies of target xsens_msgs_generate_messages_cpp
+[ 36%] Generating EusLisp code from xsens_msgs/GnssSensorSample.msg
+[ 36%] Generating C++ code from xsens_msgs/orientationEstimate.msg
+[ 36%] Generating Python from MSG xsens_msgs/positionEstimate
+[ 36%] Built target actionlib_tutorials_generate_messages_eus
+[ 37%] Generating EusLisp code from xsens_msgs/velocityEstimate.msg
+Scanning dependencies of target xsens_msgs_generate_messages_lisp
+[ 38%] Generating Lisp code from xsens_msgs/orientationEstimate.msg
+[ 40%] Generating Python from MSG xsens_msgs/ImuSensorSample
+[ 40%] Generating Lisp code from xsens_msgs/baroSample.msg
+[ 40%] Generating EusLisp code from xsens_msgs/BaroSensorSample.msg
+[ 41%] Generating C++ code from xsens_msgs/baroSample.msg
+[ 42%] Generating Lisp code from xsens_msgs/positionEstimate.msg
+[ 43%] Generating EusLisp code from xsens_msgs/gnssSample.msg
+[ 43%] Generating Python from MSG xsens_msgs/sensorSample
+[ 43%] Generating Lisp code from xsens_msgs/ImuSensorSample.msg
+[ 43%] Generating Lisp code from xsens_msgs/sensorSample.msg
+[ 43%] Generating EusLisp code from xsens_msgs/Internal.msg
+[ 43%] Generating C++ code from xsens_msgs/positionEstimate.msg
+[ 44%] Generating Lisp code from xsens_msgs/GnssSensorSample.msg
+[ 45%] Generating Python from MSG xsens_msgs/GnssSensorSample
+[ 46%] Generating EusLisp code from xsens_msgs/XsensQuaternion.msg
+[ 46%] Generating Lisp code from xsens_msgs/velocityEstimate.msg
+[ 47%] Generating Lisp code from xsens_msgs/BaroSensorSample.msg
+[ 47%] Generating EusLisp manifest code for xsens_msgs
+[ 48%] Generating C++ code from xsens_msgs/ImuSensorSample.msg
+[ 48%] Generating Python from MSG xsens_msgs/velocityEstimate
+[ 48%] Generating Lisp code from xsens_msgs/gnssSample.msg
+[ 49%] Generating Lisp code from xsens_msgs/Internal.msg
+[ 50%] Generating Python from MSG xsens_msgs/BaroSensorSample
+[ 50%] Generating C++ code from xsens_msgs/sensorSample.msg
+[ 50%] Generating Lisp code from xsens_msgs/XsensQuaternion.msg
+[ 50%] Built target xsens_msgs_generate_messages_lisp
+[ 50%] Generating Python from MSG xsens_msgs/gnssSample
+Scanning dependencies of target xsens_msgs_generate_messages_nodejs
+[ 51%] Generating Javascript code from xsens_msgs/orientationEstimate.msg
+[ 52%] Generating Python from MSG xsens_msgs/Internal
+[ 52%] Generating Javascript code from xsens_msgs/baroSample.msg
+[ 53%] Generating C++ code from xsens_msgs/GnssSensorSample.msg
+[ 53%] Generating Javascript code from xsens_msgs/positionEstimate.msg
+[ 54%] Generating Javascript code from xsens_msgs/ImuSensorSample.msg
+[ 54%] Generating Python from MSG xsens_msgs/XsensQuaternion
+[ 54%] Generating Javascript code from xsens_msgs/sensorSample.msg
+[ 54%] Generating C++ code from xsens_msgs/velocityEstimate.msg
+[ 55%] Generating Python msg __init__.py for xsens_msgs
+[ 56%] Generating Javascript code from xsens_msgs/GnssSensorSample.msg
+[ 56%] Generating Javascript code from xsens_msgs/velocityEstimate.msg
+[ 57%] Generating Javascript code from xsens_msgs/BaroSensorSample.msg
+[ 57%] Generating C++ code from xsens_msgs/BaroSensorSample.msg
+[ 57%] Generating Javascript code from xsens_msgs/gnssSample.msg
+[ 57%] Built target xsens_msgs_generate_messages_py
+Scanning dependencies of target spectator_generate_messages_nodejs
+[ 57%] Generating Javascript code from spectator/set_val.srv
+[ 58%] Generating Javascript code from xsens_msgs/Internal.msg
+[ 58%] Built target xsens_msgs_generate_messages_eus
+[ 60%] Generating Javascript code from spectator/get_str_list.srv
+[ 60%] Generating Javascript code from spectator/empty.srv
+[ 60%] Generating Javascript code from xsens_msgs/XsensQuaternion.msg
+[ 61%] Generating C++ code from xsens_msgs/gnssSample.msg
+[ 62%] Generating Javascript code from spectator/set_target.srv
+[ 62%] Generating Javascript code from spectator/get_uint_value.srv
+[ 62%] Built target xsens_msgs_generate_messages_nodejs
+[ 63%] Generating Javascript code from spectator/get_str.srv
+[ 63%] Generating Javascript code from spectator/get_float_value.srv
+Scanning dependencies of target spectator_generate_messages_py
+[ 63%] Generating Python code from SRV spectator/set_val
+[ 64%] Generating Python code from SRV spectator/get_str_list
+[ 64%] Built target spectator_generate_messages_nodejs
+Scanning dependencies of target spectator_generate_messages_lisp
+[ 64%] Generating C++ code from xsens_msgs/Internal.msg
+[ 64%] Generating Lisp code from spectator/set_val.srv
+[ 65%] Generating Lisp code from spectator/get_str_list.srv
+[ 65%] Generating Python code from SRV spectator/empty
+[ 66%] Generating Python code from SRV spectator/set_target
+[ 66%] Generating Lisp code from spectator/empty.srv
+[ 66%] Generating Python code from SRV spectator/get_uint_value
+[ 67%] Generating Python code from SRV spectator/get_str
+[ 68%] Generating Lisp code from spectator/set_target.srv
+[ 69%] Generating C++ code from xsens_msgs/XsensQuaternion.msg
+[ 69%] Generating Lisp code from spectator/get_uint_value.srv
+[ 69%] Generating Python code from SRV spectator/get_float_value
+[ 69%] Generating Lisp code from spectator/get_str.srv
+[ 70%] Generating Lisp code from spectator/get_float_value.srv
+Scanning dependencies of target spectator_generate_messages_eus
+[ 71%] Generating EusLisp code from spectator/set_val.srv
+[ 71%] Built target xsens_msgs_generate_messages_cpp
+[ 72%] Generating Python srv __init__.py for spectator
+Scanning dependencies of target spectator_generate_messages_cpp
+[ 72%] Built target spectator_generate_messages_lisp
+[ 72%] Generating EusLisp code from spectator/get_str_list.srv
+[ 72%] Generating C++ code from spectator/set_val.srv
+[ 72%] Generating EusLisp code from spectator/empty.srv
+[ 73%] Generating EusLisp code from spectator/set_target.srv
+[ 73%] Built target spectator_generate_messages_py
+Scanning dependencies of target chapter2_tutorials_generate_messages
+[ 73%] Generating EusLisp code from spectator/get_uint_value.srv
+[ 73%] Built target chapter2_tutorials_generate_messages
+[ 74%] Generating EusLisp code from spectator/get_str.srv
+Scanning dependencies of target add_3_ints_client
+[ 75%] Building CXX object chapter2_tutorials/CMakeFiles/add_3_ints_client.dir/src/add_3_ints_client.cpp.o
+[ 75%] Generating EusLisp code from spectator/get_float_value.srv
+[ 76%] Generating EusLisp manifest code for spectator
+[ 77%] Generating C++ code from spectator/get_str_list.srv
+Scanning dependencies of target add_3_ints_server
+[ 78%] Building CXX object chapter2_tutorials/CMakeFiles/add_3_ints_server.dir/src/add_3_ints_server.cpp.o
+[ 78%] Generating C++ code from spectator/empty.srv
+[ 80%] Generating C++ code from spectator/set_target.srv
+[ 80%] Built target spectator_generate_messages_eus
+Scanning dependencies of target example2_a
+[ 80%] Building CXX object chapter2_tutorials/CMakeFiles/example2_a.dir/src/example2_a.cpp.o
+[ 80%] Generating C++ code from spectator/get_uint_value.srv
+[ 81%] Generating C++ code from spectator/get_str.srv
+[ 81%] Generating C++ code from spectator/get_float_value.srv
+[ 81%] Built target spectator_generate_messages_cpp
+Scanning dependencies of target example2_b
+[ 81%] Building CXX object chapter2_tutorials/CMakeFiles/example2_b.dir/src/example2_b.cpp.o
+[ 81%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/chapter2_tutorials/add_3_ints_client
+[ 81%] Built target add_3_ints_client
+Scanning dependencies of target my_location_generate_messages
+[ 81%] Built target my_location_generate_messages
+Scanning dependencies of target my_location_node
+[ 82%] Building CXX object my_location/CMakeFiles/my_location_node.dir/src/my_location_node.cpp.o
+[ 82%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/chapter2_tutorials/add_3_ints_server
+[ 82%] Built target add_3_ints_server
+Scanning dependencies of target fibonacci_server
+[ 82%] Building CXX object actionlib_tutorials/CMakeFiles/fibonacci_server.dir/src/fibonacci_server.cpp.o
+[ 83%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/chapter2_tutorials/example2_a
+[ 83%] Built target example2_a
+Scanning dependencies of target fibonacci_client
+[ 83%] Building CXX object actionlib_tutorials/CMakeFiles/fibonacci_client.dir/src/fibonacci_client.cpp.o
+[ 84%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/chapter2_tutorials/example2_b
+[ 84%] Built target example2_b
+Scanning dependencies of target actionlib_tutorials_generate_messages
+[ 84%] Built target actionlib_tutorials_generate_messages
+Scanning dependencies of target xsens_msgs_generate_messages
+[ 84%] Built target xsens_msgs_generate_messages
+Scanning dependencies of target speedo
+[ 84%] Building CXX object client_interface/CMakeFiles/speedo.dir/src/speedo.cpp.o
+[ 84%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/my_location/my_location_node
+[ 84%] Built target my_location_node
+Scanning dependencies of target client_interface
+[ 85%] Building CXX object client_interface/CMakeFiles/client_interface.dir/src/client_interface.cpp.o
+[ 86%] Building CXX object client_interface/CMakeFiles/speedo.dir/src/parser.cpp.o
+[ 86%] Building CXX object client_interface/CMakeFiles/client_interface.dir/src/shm_manager.cpp.o
+[ 87%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/actionlib_tutorials/fibonacci_client
+[ 87%] Built target fibonacci_client
+Scanning dependencies of target spectator_generate_messages
+[ 87%] Built target spectator_generate_messages
+[ 87%] Building CXX object client_interface/CMakeFiles/speedo.dir/src/client_handler.cpp.o
+[ 88%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/actionlib_tutorials/fibonacci_server
+[ 88%] Built target fibonacci_server
+[ 89%] Building CXX object client_interface/CMakeFiles/speedo.dir/src/client_acceptor.cpp.o
+[ 89%] Building CXX object client_interface/CMakeFiles/client_interface.dir/src/db_handler.cpp.o
+[ 89%] Building CXX object client_interface/CMakeFiles/speedo.dir/src/queue.cpp.o
+[ 90%] Building CXX object client_interface/CMakeFiles/speedo.dir/src/dr_robot.cpp.o
+[ 91%] Building CXX object client_interface/CMakeFiles/client_interface.dir/src/utils.cpp.o
+[ 91%] Linking CXX shared library /home/kict/KICT_MP/catkin_ws/devel/lib/libspeedo.so
+[ 91%] Built target speedo
+Scanning dependencies of target speedo_node
+[ 91%] Building CXX object client_interface/CMakeFiles/speedo_node.dir/src/speedo_node.cpp.o
+[ 91%] Linking CXX shared library /home/kict/KICT_MP/catkin_ws/devel/lib/libclient_interface.so
+[ 91%] Built target client_interface
+Scanning dependencies of target robot_node
+Scanning dependencies of target client_interface_node
+Scanning dependencies of target cam_viewer
+[ 91%] Building CXX object robot/CMakeFiles/robot_node.dir/src/robot_node.cpp.o
+[ 91%] Building C object cam_viewer/CMakeFiles/cam_viewer.dir/src/cam_viewer.c.o
+[ 92%] Building CXX object client_interface/CMakeFiles/client_interface_node.dir/src/client_interface_node.cpp.o
+[ 93%] Building CXX object cam_viewer/CMakeFiles/cam_viewer.dir/src/convert.cpp.o
+[ 93%] Linking CXX shared library /home/kict/KICT_MP/catkin_ws/devel/lib/libcam_viewer.so
+[ 93%] Built target cam_viewer
+Scanning dependencies of target spectator
+[ 93%] Building CXX object spectator/CMakeFiles/spectator.dir/src/spectator.cpp.o
+[ 94%] Building CXX object spectator/CMakeFiles/spectator.dir/src/joint.cpp.o
+[ 95%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/robot/robot_node
+[ 96%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/client_interface/speedo_node
+[ 96%] Built target robot_node
+[ 96%] Built target speedo_node
+Scanning dependencies of target spectator_key
+Scanning dependencies of target cam_viewer_node
+[ 96%] Building CXX object spectator/CMakeFiles/spectator_key.dir/src/spectator_key.cpp.o
+[ 97%] Building CXX object cam_viewer/CMakeFiles/cam_viewer_node.dir/src/cam_viewer_node.cpp.o
+[ 97%] Linking CXX shared library /home/kict/KICT_MP/catkin_ws/devel/lib/libspectator.so
+[ 98%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/spectator/spectator_key
+[ 98%] Built target spectator
+Scanning dependencies of target spectator_node
+[ 98%] Building CXX object spectator/CMakeFiles/spectator_node.dir/src/spectator_node.cpp.o
+[ 98%] Built target spectator_key
+[ 98%] Building CXX object spectator/CMakeFiles/spectator_node.dir/src/cmd_handler.cpp.o
+[ 98%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/client_interface/client_interface_node
+[ 98%] Built target client_interface_node
+[ 98%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/cam_viewer/cam_viewer_node
+[ 98%] Built target cam_viewer_node
+[100%] Linking CXX executable /home/kict/KICT_MP/catkin_ws/devel/lib/spectator/spectator_node
+[100%] Built target spectator_node
+Base path: /home/kict/KICT_MP/catkin_ws
+Source space: /home/kict/KICT_MP/catkin_ws/src
+Build space: /home/kict/KICT_MP/catkin_ws/build
+Devel space: /home/kict/KICT_MP/catkin_ws/devel
+Install space: /home/kict/KICT_MP/catkin_ws/install
+####
+#### Running command: "cmake /home/kict/KICT_MP/catkin_ws/src -DCATKIN_DEVEL_PREFIX=/home/kict/KICT_MP/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kict/KICT_MP/catkin_ws/install -G Unix Makefiles" in "/home/kict/KICT_MP/catkin_ws/build"
+####
+####
+#### Running command: "make -j4 -l4" in "/home/kict/KICT_MP/catkin_ws/build"
+####

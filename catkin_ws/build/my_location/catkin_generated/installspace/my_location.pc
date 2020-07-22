@@ -1,0 +1,8 @@
+prefix=/home/hasan/KICT_MP_SERVER/catkin_ws/install
+
+Name: my_location
+Description: Description of my_location
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lmy_location
+Requires: roscpp rospy std_msgs message_runtime

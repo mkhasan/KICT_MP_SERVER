@@ -1,0 +1,2 @@
+actionlib_tutorials:cam_checker:robot_upstart:serial_interface
+-DCATKIN_DEVEL_PREFIX=/home/hasan/KICT_MP_SERVER/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/hasan/KICT_MP_SERVER/catkin_ws/install -G Unix Makefiles
