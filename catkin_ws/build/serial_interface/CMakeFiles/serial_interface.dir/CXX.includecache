@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/unix.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/unix.h
 serial_interface/serial.h
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/serial_interface/serial.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/serial_interface/serial.h
 pthread.h
 -
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/win.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/win.h
 serial/serial.h
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/serial/serial.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/serial/serial.h
 windows.h
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/windows.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/impl/windows.h
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/serial.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/serial.h
 limits
 -
 vector
@@ -36,7 +36,7 @@ stdexcept
 serial_interface/v8stdint.h
 -
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/v8stdint.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/include/serial_interface/v8stdint.h
 stddef.h
 -
 stdio.h
@@ -44,7 +44,7 @@ stdio.h
 stdint.h
 -
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/list_ports/list_ports_linux.cc
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/list_ports/list_ports_linux.cc
 vector
 -
 string
@@ -72,9 +72,9 @@ sys/stat.h
 unistd.h
 -
 serial_interface/serial.h
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/list_ports/serial_interface/serial.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/list_ports/serial_interface/serial.h
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/unix.cc
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/unix.cc
 stdio.h
 -
 string.h
@@ -116,19 +116,19 @@ mach/clock.h
 mach/mach.h
 -
 serial_interface/impl/unix.h
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/serial_interface/impl/unix.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/serial_interface/impl/unix.h
 IOKit/serial/ioss.h
 -
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial.cc
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial.cc
 algorithm
 -
 alloca.h
 -
 serial_interface/serial.h
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial_interface/serial.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial_interface/serial.h
 serial_interface/impl/win.h
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial_interface/impl/win.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial_interface/impl/win.h
 serial_interface/impl/unix.h
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial_interface/impl/unix.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial_interface/impl/unix.h
 

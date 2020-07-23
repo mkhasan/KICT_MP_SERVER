@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles /home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/progress.marks
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles 0
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/progress.marks
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/clean
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/preinstall
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/preinstall
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 serial_interface/CMakeFiles/roscpp_generate_messages_py.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_py.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_py.dir/rule
 .PHONY : serial_interface/CMakeFiles/roscpp_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -179,12 +179,12 @@ roscpp_generate_messages_py: serial_interface/CMakeFiles/roscpp_generate_message
 
 # fast build rule for target.
 roscpp_generate_messages_py/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_py.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_py.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_py.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_py.dir/build
 .PHONY : roscpp_generate_messages_py/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/roscpp_generate_messages_eus.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_eus.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 .PHONY : serial_interface/CMakeFiles/roscpp_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -194,12 +194,12 @@ roscpp_generate_messages_eus: serial_interface/CMakeFiles/roscpp_generate_messag
 
 # fast build rule for target.
 roscpp_generate_messages_eus/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_eus.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_eus.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_eus.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_eus.dir/build
 .PHONY : roscpp_generate_messages_eus/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/roscpp_generate_messages_lisp.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 .PHONY : serial_interface/CMakeFiles/roscpp_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -209,12 +209,12 @@ roscpp_generate_messages_lisp: serial_interface/CMakeFiles/roscpp_generate_messa
 
 # fast build rule for target.
 roscpp_generate_messages_lisp/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_lisp.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_lisp.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_lisp.dir/build
 .PHONY : roscpp_generate_messages_lisp/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 .PHONY : serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -224,12 +224,12 @@ rosgraph_msgs_generate_messages_cpp: serial_interface/CMakeFiles/rosgraph_msgs_g
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_cpp/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 .PHONY : serial_interface/CMakeFiles/std_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -239,12 +239,12 @@ std_msgs_generate_messages_lisp: serial_interface/CMakeFiles/std_msgs_generate_m
 
 # fast build rule for target.
 std_msgs_generate_messages_lisp/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_lisp.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_lisp.dir/build
 .PHONY : std_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/roscpp_generate_messages_cpp.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 .PHONY : serial_interface/CMakeFiles/roscpp_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -254,12 +254,12 @@ roscpp_generate_messages_cpp: serial_interface/CMakeFiles/roscpp_generate_messag
 
 # fast build rule for target.
 roscpp_generate_messages_cpp/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_cpp.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_cpp.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_cpp.dir/build
 .PHONY : roscpp_generate_messages_cpp/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 .PHONY : serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -269,12 +269,12 @@ rosgraph_msgs_generate_messages_eus: serial_interface/CMakeFiles/rosgraph_msgs_g
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_eus/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/build
 .PHONY : rosgraph_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/serial_interface.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/serial_interface.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/serial_interface.dir/rule
 .PHONY : serial_interface/CMakeFiles/serial_interface.dir/rule
 
 # Convenience name for target.
@@ -284,12 +284,12 @@ serial_interface: serial_interface/CMakeFiles/serial_interface.dir/rule
 
 # fast build rule for target.
 serial_interface/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/build
 .PHONY : serial_interface/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 .PHONY : serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/rule
 
 # Convenience name for target.
@@ -299,12 +299,12 @@ rosgraph_msgs_generate_messages_lisp: serial_interface/CMakeFiles/rosgraph_msgs_
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_lisp/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_lisp/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 .PHONY : serial_interface/CMakeFiles/std_msgs_generate_messages_cpp.dir/rule
 
 # Convenience name for target.
@@ -314,12 +314,12 @@ std_msgs_generate_messages_cpp: serial_interface/CMakeFiles/std_msgs_generate_me
 
 # fast build rule for target.
 std_msgs_generate_messages_cpp/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_cpp.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_cpp.dir/build
 .PHONY : std_msgs_generate_messages_cpp/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 .PHONY : serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -329,12 +329,12 @@ rosgraph_msgs_generate_messages_nodejs: serial_interface/CMakeFiles/rosgraph_msg
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_nodejs/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/build
 .PHONY : rosgraph_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 .PHONY : serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -344,12 +344,12 @@ rosgraph_msgs_generate_messages_py: serial_interface/CMakeFiles/rosgraph_msgs_ge
 
 # fast build rule for target.
 rosgraph_msgs_generate_messages_py/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make serial_interface/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/std_msgs_generate_messages_eus.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 .PHONY : serial_interface/CMakeFiles/std_msgs_generate_messages_eus.dir/rule
 
 # Convenience name for target.
@@ -359,12 +359,12 @@ std_msgs_generate_messages_eus: serial_interface/CMakeFiles/std_msgs_generate_me
 
 # fast build rule for target.
 std_msgs_generate_messages_eus/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_eus.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_eus.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_eus.dir/build
 .PHONY : std_msgs_generate_messages_eus/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 .PHONY : serial_interface/CMakeFiles/std_msgs_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ std_msgs_generate_messages_nodejs: serial_interface/CMakeFiles/std_msgs_generate
 
 # fast build rule for target.
 std_msgs_generate_messages_nodejs/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 .PHONY : std_msgs_generate_messages_nodejs/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 .PHONY : serial_interface/CMakeFiles/roscpp_generate_messages_nodejs.dir/rule
 
 # Convenience name for target.
@@ -389,12 +389,12 @@ roscpp_generate_messages_nodejs: serial_interface/CMakeFiles/roscpp_generate_mes
 
 # fast build rule for target.
 roscpp_generate_messages_nodejs/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/roscpp_generate_messages_nodejs.dir/build.make serial_interface/CMakeFiles/roscpp_generate_messages_nodejs.dir/build
 .PHONY : roscpp_generate_messages_nodejs/fast
 
 # Convenience name for target.
 serial_interface/CMakeFiles/std_msgs_generate_messages_py.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_py.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 .PHONY : serial_interface/CMakeFiles/std_msgs_generate_messages_py.dir/rule
 
 # Convenience name for target.
@@ -404,7 +404,7 @@ std_msgs_generate_messages_py: serial_interface/CMakeFiles/std_msgs_generate_mes
 
 # fast build rule for target.
 std_msgs_generate_messages_py/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_py.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_py.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/std_msgs_generate_messages_py.dir/build.make serial_interface/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
 src/impl/list_ports/list_ports_linux.o: src/impl/list_ports/list_ports_linux.cc.o
@@ -413,7 +413,7 @@ src/impl/list_ports/list_ports_linux.o: src/impl/list_ports/list_ports_linux.cc.
 
 # target to build an object file
 src/impl/list_ports/list_ports_linux.cc.o:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.o
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.o
 .PHONY : src/impl/list_ports/list_ports_linux.cc.o
 
 src/impl/list_ports/list_ports_linux.i: src/impl/list_ports/list_ports_linux.cc.i
@@ -422,7 +422,7 @@ src/impl/list_ports/list_ports_linux.i: src/impl/list_ports/list_ports_linux.cc.
 
 # target to preprocess a source file
 src/impl/list_ports/list_ports_linux.cc.i:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.i
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.i
 .PHONY : src/impl/list_ports/list_ports_linux.cc.i
 
 src/impl/list_ports/list_ports_linux.s: src/impl/list_ports/list_ports_linux.cc.s
@@ -431,7 +431,7 @@ src/impl/list_ports/list_ports_linux.s: src/impl/list_ports/list_ports_linux.cc.
 
 # target to generate assembly for a file
 src/impl/list_ports/list_ports_linux.cc.s:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.s
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.s
 .PHONY : src/impl/list_ports/list_ports_linux.cc.s
 
 src/impl/unix.o: src/impl/unix.cc.o
@@ -440,7 +440,7 @@ src/impl/unix.o: src/impl/unix.cc.o
 
 # target to build an object file
 src/impl/unix.cc.o:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.o
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.o
 .PHONY : src/impl/unix.cc.o
 
 src/impl/unix.i: src/impl/unix.cc.i
@@ -449,7 +449,7 @@ src/impl/unix.i: src/impl/unix.cc.i
 
 # target to preprocess a source file
 src/impl/unix.cc.i:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.i
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.i
 .PHONY : src/impl/unix.cc.i
 
 src/impl/unix.s: src/impl/unix.cc.s
@@ -458,7 +458,7 @@ src/impl/unix.s: src/impl/unix.cc.s
 
 # target to generate assembly for a file
 src/impl/unix.cc.s:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.s
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.s
 .PHONY : src/impl/unix.cc.s
 
 src/serial.o: src/serial.cc.o
@@ -467,7 +467,7 @@ src/serial.o: src/serial.cc.o
 
 # target to build an object file
 src/serial.cc.o:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.o
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.o
 .PHONY : src/serial.cc.o
 
 src/serial.i: src/serial.cc.i
@@ -476,7 +476,7 @@ src/serial.i: src/serial.cc.i
 
 # target to preprocess a source file
 src/serial.cc.i:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.i
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.i
 .PHONY : src/serial.cc.i
 
 src/serial.s: src/serial.cc.s
@@ -485,7 +485,7 @@ src/serial.s: src/serial.cc.s
 
 # target to generate assembly for a file
 src/serial.cc.s:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.s
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.s
 .PHONY : src/serial.cc.s
 
 # Help Target
@@ -537,6 +537,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

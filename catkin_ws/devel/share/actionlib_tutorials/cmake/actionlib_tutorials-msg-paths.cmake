@@ -1,4 +1,4 @@
 # generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
 
-set(actionlib_tutorials_MSG_INCLUDE_DIRS "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/share/actionlib_tutorials/msg")
+set(actionlib_tutorials_MSG_INCLUDE_DIRS "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/share/actionlib_tutorials/msg")
 set(actionlib_tutorials_MSG_DEPENDENCIES actionlib_msgs;std_msgs)

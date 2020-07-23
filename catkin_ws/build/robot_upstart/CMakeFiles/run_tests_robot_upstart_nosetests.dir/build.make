@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
 
 # Utility rule file for run_tests_robot_upstart_nosetests.
 
@@ -63,10 +63,10 @@ robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests.dir/build: run_tests_
 .PHONY : robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests.dir/build
 
 robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests.dir/clean:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_robot_upstart_nosetests.dir/cmake_clean.cmake
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_robot_upstart_nosetests.dir/cmake_clean.cmake
 .PHONY : robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests.dir/clean
 
 robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests.dir/depend:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart /home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests.dir/depend
 

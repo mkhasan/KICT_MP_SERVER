@@ -1,8 +1,8 @@
-# Install script for directory: /home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart
+# Install script for directory: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hasan/KICT_MP_SERVER/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,36 +38,36 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart/catkin_generated/installspace/robot_upstart.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart/catkin_generated/installspace/robot_upstart.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_upstart/cmake" TYPE FILE FILES
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart/catkin_generated/installspace/robot_upstartConfig.cmake"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart/catkin_generated/installspace/robot_upstartConfig-version.cmake"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart/catkin_generated/installspace/robot_upstartConfig.cmake"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart/catkin_generated/installspace/robot_upstartConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_upstart" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_upstart" TYPE FILE FILES "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart/catkin_generated/safe_execute_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/robot_upstart" TYPE PROGRAM FILES
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/getifip"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/install"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/mklaunch"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/mkxacro"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/mutate_files"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/uninstall"
+    "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/getifip"
+    "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/install"
+    "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/mklaunch"
+    "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/mkxacro"
+    "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/mutate_files"
+    "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/scripts/uninstall"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_upstart" TYPE DIRECTORY FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/templates")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_upstart" TYPE DIRECTORY FILES "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/templates")
 endif()
 
