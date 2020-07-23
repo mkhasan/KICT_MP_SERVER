@@ -1,4 +1,4 @@
-prefix=/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install
+prefix=/home/hasan/KICT_MP_SERVER/catkin_ws/install
 
 Name: cam_checker
 Description: Description of cam_checker

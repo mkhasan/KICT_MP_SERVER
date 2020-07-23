@@ -7,9 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib:$LD_LIBRARY_PATH"
-export PWD="/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build"
-export PYTHONPATH="/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src:$ROS_PACKAGE_PATH"
+export PWD="/home/hasan/KICT_MP_SERVER/catkin_ws/build"

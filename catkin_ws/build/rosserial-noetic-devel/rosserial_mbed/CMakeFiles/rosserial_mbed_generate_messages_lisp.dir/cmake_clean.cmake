@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_mbed_generate_messages_lisp"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/msg/Adc.lisp"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/srv/Test.lisp"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/msg/Adc.lisp"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/share/common-lisp/ros/rosserial_mbed/srv/Test.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

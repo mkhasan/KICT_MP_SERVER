@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_msgs_generate_messages_py"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.py"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.py"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_Log.py"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/_TopicInfo.py"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/_RequestParam.py"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/msg/__init__.py"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_msgs/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

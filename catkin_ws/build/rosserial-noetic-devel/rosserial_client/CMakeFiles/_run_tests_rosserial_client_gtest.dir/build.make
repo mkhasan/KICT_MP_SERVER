@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
 
 # Utility rule file for _run_tests_rosserial_client_gtest.
 
@@ -63,10 +63,10 @@ rosserial-noetic-devel/rosserial_client/CMakeFiles/_run_tests_rosserial_client_g
 .PHONY : rosserial-noetic-devel/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest.dir/build
 
 rosserial-noetic-devel/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest.dir/clean:
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_rosserial_client_gtest.dir/cmake_clean.cmake
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client && $(CMAKE_COMMAND) -P CMakeFiles/_run_tests_rosserial_client_gtest.dir/cmake_clean.cmake
 .PHONY : rosserial-noetic-devel/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest.dir/clean
 
 rosserial-noetic-devel/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest.dir/depend:
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_client /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_client /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosserial-noetic-devel/rosserial_client/CMakeFiles/_run_tests_rosserial_client_gtest.dir/depend
 

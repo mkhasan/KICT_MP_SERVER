@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
 
 # Utility rule file for run_tests_rosserial_client_gtest_float64_test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/buil
 include rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/progress.make
 
 rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test:
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/test_results/rosserial_client/gtest-float64_test.xml "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_client/float64_test --gtest_output=xml:/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/test_results/rosserial_client/gtest-float64_test.xml"
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/hasan/KICT_MP_SERVER/catkin_ws/build/test_results/rosserial_client/gtest-float64_test.xml "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_client/float64_test --gtest_output=xml:/home/hasan/KICT_MP_SERVER/catkin_ws/build/test_results/rosserial_client/gtest-float64_test.xml"
 
 run_tests_rosserial_client_gtest_float64_test: rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test
 run_tests_rosserial_client_gtest_float64_test: rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/build.make
@@ -67,10 +67,10 @@ rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gt
 .PHONY : rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/build
 
 rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/clean:
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/cmake_clean.cmake
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/cmake_clean.cmake
 .PHONY : rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/clean
 
 rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/depend:
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_client /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_client /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosserial-noetic-devel/rosserial_client/CMakeFiles/run_tests_rosserial_client_gtest_float64_test.dir/depend
 

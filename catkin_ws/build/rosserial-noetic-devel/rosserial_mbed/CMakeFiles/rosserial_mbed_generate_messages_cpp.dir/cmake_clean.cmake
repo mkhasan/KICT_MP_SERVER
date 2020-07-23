@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_mbed_generate_messages_cpp"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/include/rosserial_mbed/Adc.h"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/include/rosserial_mbed/Test.h"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/include/rosserial_mbed/Adc.h"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/include/rosserial_mbed/Test.h"
 )
 
 # Per-language clean rules from dependency scanning.

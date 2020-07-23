@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/depend.make
@@ -58,17 +58,17 @@ include rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_look
 include rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/flags.make
 
 rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o: rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/flags.make
-rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o"
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o -c /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp
+rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o: /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o"
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o -c /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp
 
 rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.i"
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp > CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.i
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp > CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.i
 
 rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.s"
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp -o CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.s
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp -o CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.s
 
 rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o.requires:
 
@@ -88,15 +88,15 @@ rosserial_server_lookup_OBJECTS = \
 # External object files for target rosserial_server_lookup
 rosserial_server_lookup_EXTERNAL_OBJECTS =
 
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so: rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so: rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build.make
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so: rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so"
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rosserial_server_lookup.dir/link.txt --verbose=$(VERBOSE)
+/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so: rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/src/msg_lookup.cpp.o
+/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so: rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build.make
+/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so: rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so"
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rosserial_server_lookup.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so
+rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build: /home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so
 
 .PHONY : rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/build
 
@@ -105,10 +105,10 @@ rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/r
 .PHONY : rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/requires
 
 rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/clean:
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && $(CMAKE_COMMAND) -P CMakeFiles/rosserial_server_lookup.dir/cmake_clean.cmake
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server && $(CMAKE_COMMAND) -P CMakeFiles/rosserial_server_lookup.dir/cmake_clean.cmake
 .PHONY : rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/clean
 
 rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/depend:
-	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosserial-noetic-devel/rosserial_server/CMakeFiles/rosserial_server_lookup.dir/depend
 

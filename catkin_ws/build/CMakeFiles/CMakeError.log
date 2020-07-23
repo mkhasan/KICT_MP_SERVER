@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7d23e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7d23e.dir/build.make CMakeFiles/cmTC_7d23e.dir/build
-make[1]: Entering directory '/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7d23e.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_7d23e.dir/CheckSymbolExists.c.o   -c /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_7d23e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d23e.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_7d23e.dir/CheckSymbolExists.c.o  -o cmTC_7d23e 
-CMakeFiles/cmTC_7d23e.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_4e27d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e27d.dir/build.make CMakeFiles/cmTC_4e27d.dir/build
+make[1]: Entering directory '/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e27d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4e27d.dir/CheckSymbolExists.c.o   -c /home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4e27d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e27d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_4e27d.dir/CheckSymbolExists.c.o  -o cmTC_4e27d 
+CMakeFiles/cmTC_4e27d.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_7d23e.dir/build.make:97: recipe for target 'cmTC_7d23e' failed
-make[1]: *** [cmTC_7d23e] Error 1
-make[1]: Leaving directory '/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7d23e/fast' failed
-make: *** [cmTC_7d23e/fast] Error 2
+CMakeFiles/cmTC_4e27d.dir/build.make:97: recipe for target 'cmTC_4e27d' failed
+make[1]: *** [cmTC_4e27d] Error 1
+make[1]: Leaving directory '/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_4e27d/fast' failed
+make: *** [cmTC_4e27d/fast] Error 2
 
-File /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp
+Change Dir: /home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7f655/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7f655.dir/build.make CMakeFiles/cmTC_7f655.dir/build
-make[1]: Entering directory '/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7f655.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7f655.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_7f655
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7f655.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7f655.dir/CheckFunctionExists.c.o  -o cmTC_7f655 -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_49a3f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49a3f.dir/build.make CMakeFiles/cmTC_49a3f.dir/build
+make[1]: Entering directory '/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49a3f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_49a3f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_49a3f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49a3f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_49a3f.dir/CheckFunctionExists.c.o  -o cmTC_49a3f -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_7f655.dir/build.make:97: recipe for target 'cmTC_7f655' failed
-make[1]: *** [cmTC_7f655] Error 1
-make[1]: Leaving directory '/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_7f655/fast' failed
-make: *** [cmTC_7f655/fast] Error 2
+CMakeFiles/cmTC_49a3f.dir/build.make:97: recipe for target 'cmTC_49a3f' failed
+make[1]: *** [cmTC_49a3f] Error 1
+make[1]: Leaving directory '/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_49a3f/fast' failed
+make: *** [cmTC_49a3f/fast] Error 2
 
 

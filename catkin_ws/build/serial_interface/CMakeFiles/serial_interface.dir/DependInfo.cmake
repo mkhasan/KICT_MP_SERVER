@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/list_ports/list_ports_linux.cc" "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.o"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/unix.cc" "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.o"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial.cc" "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.o"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/list_ports/list_ports_linux.cc" "/home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.o"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/impl/unix.cc" "/home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.o"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/src/serial.cc" "/home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/include"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/include"
   "/opt/ros/melodic/include"
   "/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

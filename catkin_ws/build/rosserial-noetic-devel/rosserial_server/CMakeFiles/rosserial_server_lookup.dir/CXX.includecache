@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/include/rosserial_server/msg_lookup.h
+/home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/include/rosserial_server/msg_lookup.h
 string
 -
 stdexcept
 -
 
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp
+/home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/msg_lookup.cpp
 rosserial_server/msg_lookup.h
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/rosserial_server/msg_lookup.h
+/home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/rosserial_server/msg_lookup.h
 Python.h
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/Python.h
+/home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_server/src/Python.h
 
 /usr/include/python2.7/Python.h
 patchlevel.h

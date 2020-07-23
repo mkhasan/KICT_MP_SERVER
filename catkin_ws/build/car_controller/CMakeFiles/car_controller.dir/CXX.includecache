@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/car_controller/include/car_controller/add_two_ints.h
+/home/hasan/KICT_MP_SERVER/catkin_ws/src/car_controller/include/car_controller/add_two_ints.h
 std_msgs/Int64.h
 -
 
-/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/car_controller/src/car_controller.cpp
+/home/hasan/KICT_MP_SERVER/catkin_ws/src/car_controller/src/car_controller.cpp
 car_controller/add_two_ints.h
 -
 

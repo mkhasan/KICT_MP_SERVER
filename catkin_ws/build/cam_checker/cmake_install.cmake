@@ -1,8 +1,8 @@
-# Install script for directory: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/cam_checker
+# Install script for directory: /home/hasan/KICT_MP_SERVER/catkin_ws/src/cam_checker
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hasan/KICT_MP_SERVER/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,25 +38,25 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/cam_checker/catkin_generated/safe_execute_install.cmake")
+  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/cam_checker/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/cam_checker/catkin_generated/installspace/cam_checker.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/build/cam_checker/catkin_generated/installspace/cam_checker.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cam_checker/cmake" TYPE FILE FILES
-    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/cam_checker/catkin_generated/installspace/cam_checkerConfig.cmake"
-    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/cam_checker/catkin_generated/installspace/cam_checkerConfig-version.cmake"
+    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/cam_checker/catkin_generated/installspace/cam_checkerConfig.cmake"
+    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/cam_checker/catkin_generated/installspace/cam_checkerConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cam_checker" TYPE FILE FILES "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/cam_checker/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/cam_checker" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/src/cam_checker/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cam_checker" TYPE PROGRAM FILES "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/cam_checker/bin/hello")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cam_checker" TYPE PROGRAM FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/src/cam_checker/bin/hello")
 endif()
 

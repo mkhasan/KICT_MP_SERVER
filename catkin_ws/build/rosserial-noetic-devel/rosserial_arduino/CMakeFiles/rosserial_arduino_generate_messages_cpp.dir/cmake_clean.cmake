@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_arduino_generate_messages_cpp"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/include/rosserial_arduino/Adc.h"
-  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/include/rosserial_arduino/Test.h"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/include/rosserial_arduino/Adc.h"
+  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/include/rosserial_arduino/Test.h"
 )
 
 # Per-language clean rules from dependency scanning.

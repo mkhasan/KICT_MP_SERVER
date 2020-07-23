@@ -1,0 +1,7 @@
+set(python_bindings_tutorial_SETUP_PY_SETUP_MODULE "distutils.core")
+set(python_bindings_tutorial_SETUP_PY_VERSION "0.0.1")
+set(python_bindings_tutorial_SETUP_PY_SCRIPTS "")
+set(python_bindings_tutorial_SETUP_PY_PACKAGES "python_bindings_tutorial")
+set(python_bindings_tutorial_SETUP_PY_PACKAGE_DIRS "src/python_bindings_tutorial")
+set(python_bindings_tutorial_SETUP_PY_MODULES "")
+set(python_bindings_tutorial_SETUP_PY_MODULE_DIRS "")
