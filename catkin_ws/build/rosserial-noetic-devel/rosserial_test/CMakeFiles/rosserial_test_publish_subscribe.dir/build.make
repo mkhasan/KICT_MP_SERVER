@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
 
 # Include any dependencies generated for this target.
 include rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/depend.make
@@ -58,17 +58,17 @@ include rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_
 include rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/flags.make
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o: rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/flags.make
-rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o: /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/src/publish_subscribe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o"
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o -c /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/src/publish_subscribe.cpp
+rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/src/publish_subscribe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o"
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o -c /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/src/publish_subscribe.cpp
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.i"
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/src/publish_subscribe.cpp > CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.i
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/src/publish_subscribe.cpp > CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.i
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.s"
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/src/publish_subscribe.cpp -o CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.s
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/src/publish_subscribe.cpp -o CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.s
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o.requires:
 
@@ -88,36 +88,36 @@ rosserial_test_publish_subscribe_OBJECTS = \
 # External object files for target rosserial_test_publish_subscribe
 rosserial_test_publish_subscribe_EXTERNAL_OBJECTS =
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/build.make
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: gtest/googlemock/gtest/libgtest.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libtopic_tools.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libroscpp.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/librosconsole.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/librosconsole_log4cxx.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/librosconsole_backend_interface.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libxmlrpcpp.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libroscpp_serialization.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/librostime.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libcpp_common.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe"
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rosserial_test_publish_subscribe.dir/link.txt --verbose=$(VERBOSE)
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/build.make
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: gtest/googlemock/gtest/libgtest.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/librosserial_server_lookup.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libtopic_tools.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libroscpp.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/librosconsole.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/librosconsole_log4cxx.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/librosconsole_backend_interface.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libxmlrpcpp.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libroscpp_serialization.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/librostime.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /opt/ros/melodic/lib/libcpp_common.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe: rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe"
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/rosserial_test_publish_subscribe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/build: /home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe
+rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/build: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe
 
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/build
 
@@ -126,10 +126,10 @@ rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscrib
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/requires
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/clean:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && $(CMAKE_COMMAND) -P CMakeFiles/rosserial_test_publish_subscribe.dir/cmake_clean.cmake
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && $(CMAKE_COMMAND) -P CMakeFiles/rosserial_test_publish_subscribe.dir/cmake_clean.cmake
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/clean
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/depend:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_publish_subscribe.dir/depend
 

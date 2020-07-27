@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
 
 # Utility rule file for rosserial_test_rosserial_lib.
 
@@ -57,8 +57,8 @@ rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib: r
 
 
 rosserial-noetic-devel/rosserial_test/include/rosserial:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/rosserial"
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /home/hasan/KICT_MP_SERVER/catkin_ws/devel/env.sh /usr/bin/python2 /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/scripts/generate_client_ros_lib.py /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/include
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating include/rosserial"
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/env.sh /usr/bin/python2 /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test/scripts/generate_client_ros_lib.py /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/include
 
 rosserial_test_rosserial_lib: rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib
 rosserial_test_rosserial_lib: rosserial-noetic-devel/rosserial_test/include/rosserial
@@ -72,10 +72,10 @@ rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.di
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/build
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/clean:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && $(CMAKE_COMMAND) -P CMakeFiles/rosserial_test_rosserial_lib.dir/cmake_clean.cmake
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && $(CMAKE_COMMAND) -P CMakeFiles/rosserial_test_rosserial_lib.dir/cmake_clean.cmake
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/clean
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/depend:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/rosserial_test_rosserial_lib.dir/depend
 

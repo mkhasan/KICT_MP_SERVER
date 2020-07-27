@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_test_publish_subscribe.dir/src/publish_subscribe.cpp.o"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe.pdb"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe.pdb"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_test/rosserial_test_publish_subscribe"
 )
 
 # Per-language clean rules from dependency scanning.

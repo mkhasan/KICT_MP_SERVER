@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-CXX_INCLUDES = -I/home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_client/src/ros_lib -I/home/hasan/KICT_MP_SERVER/catkin_ws/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include 
+CXX_INCLUDES = -I/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_client/src/ros_lib -I/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/include -I/opt/ros/melodic/include -I/usr/src/googletest/googletest/include 
 

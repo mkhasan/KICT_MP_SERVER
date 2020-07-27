@@ -1,4 +1,4 @@
-prefix=/home/hasan/KICT_MP_SERVER/catkin_ws/install
+prefix=/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install
 
 Name: python_bindings_tutorial
 Description: Description of python_bindings_tutorial

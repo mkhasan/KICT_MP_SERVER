@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/python_bindings_tutorial-master/include/python_bindings_tutorial/add_two_ints.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/python_bindings_tutorial-master/include/python_bindings_tutorial/add_two_ints.h
 std_msgs/Int64.h
 -
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/python_bindings_tutorial-master/src/add_two_ints_wrapper.cpp
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/python_bindings_tutorial-master/src/add_two_ints_wrapper.cpp
 boost/python.hpp
 -
 string

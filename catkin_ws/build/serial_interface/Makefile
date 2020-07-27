@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles /home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/progress.marks
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/KICT_MP_SERVER/catkin_ws/build/CMakeFiles 0
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/CMakeFiles/progress.marks
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/clean
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/preinstall
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/preinstall
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 serial_interface/CMakeFiles/serial_interface.dir/rule:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/serial_interface.dir/rule
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 serial_interface/CMakeFiles/serial_interface.dir/rule
 .PHONY : serial_interface/CMakeFiles/serial_interface.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ serial_interface: serial_interface/CMakeFiles/serial_interface.dir/rule
 
 # fast build rule for target.
 serial_interface/fast:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/build
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/build
 .PHONY : serial_interface/fast
 
 src/impl/list_ports/list_ports_linux.o: src/impl/list_ports/list_ports_linux.cc.o
@@ -188,7 +188,7 @@ src/impl/list_ports/list_ports_linux.o: src/impl/list_ports/list_ports_linux.cc.
 
 # target to build an object file
 src/impl/list_ports/list_ports_linux.cc.o:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.o
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.o
 .PHONY : src/impl/list_ports/list_ports_linux.cc.o
 
 src/impl/list_ports/list_ports_linux.i: src/impl/list_ports/list_ports_linux.cc.i
@@ -197,7 +197,7 @@ src/impl/list_ports/list_ports_linux.i: src/impl/list_ports/list_ports_linux.cc.
 
 # target to preprocess a source file
 src/impl/list_ports/list_ports_linux.cc.i:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.i
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.i
 .PHONY : src/impl/list_ports/list_ports_linux.cc.i
 
 src/impl/list_ports/list_ports_linux.s: src/impl/list_ports/list_ports_linux.cc.s
@@ -206,7 +206,7 @@ src/impl/list_ports/list_ports_linux.s: src/impl/list_ports/list_ports_linux.cc.
 
 # target to generate assembly for a file
 src/impl/list_ports/list_ports_linux.cc.s:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.s
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/list_ports/list_ports_linux.cc.s
 .PHONY : src/impl/list_ports/list_ports_linux.cc.s
 
 src/impl/unix.o: src/impl/unix.cc.o
@@ -215,7 +215,7 @@ src/impl/unix.o: src/impl/unix.cc.o
 
 # target to build an object file
 src/impl/unix.cc.o:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.o
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.o
 .PHONY : src/impl/unix.cc.o
 
 src/impl/unix.i: src/impl/unix.cc.i
@@ -224,7 +224,7 @@ src/impl/unix.i: src/impl/unix.cc.i
 
 # target to preprocess a source file
 src/impl/unix.cc.i:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.i
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.i
 .PHONY : src/impl/unix.cc.i
 
 src/impl/unix.s: src/impl/unix.cc.s
@@ -233,7 +233,7 @@ src/impl/unix.s: src/impl/unix.cc.s
 
 # target to generate assembly for a file
 src/impl/unix.cc.s:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.s
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/impl/unix.cc.s
 .PHONY : src/impl/unix.cc.s
 
 src/serial.o: src/serial.cc.o
@@ -242,7 +242,7 @@ src/serial.o: src/serial.cc.o
 
 # target to build an object file
 src/serial.cc.o:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.o
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.o
 .PHONY : src/serial.cc.o
 
 src/serial.i: src/serial.cc.i
@@ -251,7 +251,7 @@ src/serial.i: src/serial.cc.i
 
 # target to preprocess a source file
 src/serial.cc.i:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.i
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.i
 .PHONY : src/serial.cc.i
 
 src/serial.s: src/serial.cc.s
@@ -260,7 +260,7 @@ src/serial.s: src/serial.cc.s
 
 # target to generate assembly for a file
 src/serial.cc.s:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.s
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(MAKE) -f serial_interface/CMakeFiles/serial_interface.dir/build.make serial_interface/CMakeFiles/serial_interface.dir/src/serial.cc.s
 .PHONY : src/serial.cc.s
 
 # Help Target
@@ -297,6 +297,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/hasan/KICT_MP_SERVER/catkin_ws/build"
+export PWD="/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build"

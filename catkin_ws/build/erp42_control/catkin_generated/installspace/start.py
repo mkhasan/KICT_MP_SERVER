@@ -1,0 +1,5 @@
+import erp_control.erp_control_sub
+
+
+if __name__ == '__main__':
+    erp_control.erp_control_sub.start()

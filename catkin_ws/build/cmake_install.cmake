@@ -1,8 +1,8 @@
-# Install script for directory: /home/hasan/KICT_MP_SERVER/catkin_ws/src
+# Install script for directory: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hasan/KICT_MP_SERVER/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,108 +49,109 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hasan/KICT_MP_SERVER/catkin_ws/install/_setup_util.py")
+   "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hasan/KICT_MP_SERVER/catkin_ws/install" TYPE PROGRAM FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install" TYPE PROGRAM FILES "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hasan/KICT_MP_SERVER/catkin_ws/install/env.sh")
+   "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hasan/KICT_MP_SERVER/catkin_ws/install" TYPE PROGRAM FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install" TYPE PROGRAM FILES "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hasan/KICT_MP_SERVER/catkin_ws/install/setup.bash;/home/hasan/KICT_MP_SERVER/catkin_ws/install/local_setup.bash")
+   "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/setup.bash;/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hasan/KICT_MP_SERVER/catkin_ws/install" TYPE FILE FILES
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/setup.bash"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install" TYPE FILE FILES
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/setup.bash"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hasan/KICT_MP_SERVER/catkin_ws/install/setup.sh;/home/hasan/KICT_MP_SERVER/catkin_ws/install/local_setup.sh")
+   "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/setup.sh;/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hasan/KICT_MP_SERVER/catkin_ws/install" TYPE FILE FILES
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/setup.sh"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install" TYPE FILE FILES
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/setup.sh"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hasan/KICT_MP_SERVER/catkin_ws/install/setup.zsh;/home/hasan/KICT_MP_SERVER/catkin_ws/install/local_setup.zsh")
+   "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/setup.zsh;/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hasan/KICT_MP_SERVER/catkin_ws/install" TYPE FILE FILES
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/setup.zsh"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install" TYPE FILE FILES
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/setup.zsh"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/hasan/KICT_MP_SERVER/catkin_ws/install/.rosinstall")
+   "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/hasan/KICT_MP_SERVER/catkin_ws/install" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install" TYPE FILE FILES "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/gtest/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_mbed/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_msgs/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_python/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_tivac/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_vex_cortex/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_vex_v5/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_xbee/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/cam_checker/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/car_controller/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/actionlib_tutorials/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_embeddedlinux/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/cmake_install.cmake")
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_windows/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_mbed/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_msgs/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_python/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_tivac/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_vex_cortex/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_vex_v5/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_xbee/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_client/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/cam_checker/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/erp42_control/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/car_controller/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/actionlib_tutorials/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_server/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_embeddedlinux/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/cmake_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_windows/cmake_install.cmake")
 
 endif()
 
@@ -162,5 +163,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/hasan/KICT_MP_SERVER/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

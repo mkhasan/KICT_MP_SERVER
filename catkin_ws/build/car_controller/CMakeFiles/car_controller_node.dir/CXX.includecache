@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/car_controller/include/car_controller/add_two_ints.h
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/car_controller/include/car_controller/add_two_ints.h
 std_msgs/Int64.h
 -
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/car_controller/src/car_controller.cpp
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/car_controller/src/car_controller.cpp
 car_controller/add_two_ints.h
 -
 
-/home/hasan/KICT_MP_SERVER/catkin_ws/src/car_controller/src/car_controller_node.cpp
+/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/car_controller/src/car_controller_node.cpp
 
 /opt/ros/melodic/include/ros/builtin_message_traits.h
 message_traits.h

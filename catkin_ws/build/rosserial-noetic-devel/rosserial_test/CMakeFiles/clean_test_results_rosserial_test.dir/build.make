@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
 
 # Utility rule file for clean_test_results_rosserial_test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
 include rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/progress.make
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/hasan/KICT_MP_SERVER/catkin_ws/build/test_results/rosserial_test
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/remove_test_results.py /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/test_results/rosserial_test
 
 clean_test_results_rosserial_test: rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test
 clean_test_results_rosserial_test: rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/build.make
@@ -67,10 +67,10 @@ rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_te
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/build
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/clean:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_rosserial_test.dir/cmake_clean.cmake
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test && $(CMAKE_COMMAND) -P CMakeFiles/clean_test_results_rosserial_test.dir/cmake_clean.cmake
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/clean
 
 rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/depend:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_test /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosserial-noetic-devel/rosserial_test/CMakeFiles/clean_test_results_rosserial_test.dir/depend
 

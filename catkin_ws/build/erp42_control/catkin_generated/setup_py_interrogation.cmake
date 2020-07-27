@@ -1,0 +1,7 @@
+set(erp42_control_SETUP_PY_SETUP_MODULE "distutils.core")
+set(erp42_control_SETUP_PY_VERSION "0.0.0")
+set(erp42_control_SETUP_PY_SCRIPTS "")
+set(erp42_control_SETUP_PY_PACKAGES "erp42_control")
+set(erp42_control_SETUP_PY_PACKAGE_DIRS "src/erp42_control")
+set(erp42_control_SETUP_PY_MODULES "")
+set(erp42_control_SETUP_PY_MODULE_DIRS "")

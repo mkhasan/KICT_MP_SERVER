@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_arduino_generate_messages_eus"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/share/roseus/ros/rosserial_arduino/msg/Adc.l"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/share/roseus/ros/rosserial_arduino/srv/Test.l"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/share/roseus/ros/rosserial_arduino/manifest.l"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/share/roseus/ros/rosserial_arduino/msg/Adc.l"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/share/roseus/ros/rosserial_arduino/srv/Test.l"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/share/roseus/ros/rosserial_arduino/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

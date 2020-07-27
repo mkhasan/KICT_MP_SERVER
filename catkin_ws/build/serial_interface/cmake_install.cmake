@@ -1,8 +1,8 @@
-# Install script for directory: /home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface
+# Install script for directory: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hasan/KICT_MP_SERVER/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/catkin_generated/installspace/serial_interface.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/catkin_generated/installspace/serial_interface.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_interface/cmake" TYPE FILE FILES
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/catkin_generated/installspace/serial_interfaceConfig.cmake"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/serial_interface/catkin_generated/installspace/serial_interfaceConfig-version.cmake"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/catkin_generated/installspace/serial_interfaceConfig.cmake"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/serial_interface/catkin_generated/installspace/serial_interfaceConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_interface" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/src/serial_interface/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/serial_interface" TYPE FILE FILES "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/serial_interface/package.xml")
 endif()
 

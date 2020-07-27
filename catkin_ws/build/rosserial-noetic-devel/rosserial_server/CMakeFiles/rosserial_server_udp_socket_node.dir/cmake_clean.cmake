@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_server_udp_socket_node.dir/src/udp_socket_node.cpp.o"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_server/udp_socket_node.pdb"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_server/udp_socket_node"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_server/udp_socket_node.pdb"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/rosserial_server/udp_socket_node"
 )
 
 # Per-language clean rules from dependency scanning.

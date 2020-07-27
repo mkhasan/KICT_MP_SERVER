@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
 
 # Utility rule file for run_tests_robot_upstart_nosetests_test.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
 include robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/progress.make
 
 robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/hasan/KICT_MP_SERVER/catkin_ws/build/test_results/robot_upstart/nosetests-test.xml "\"/usr/bin/cmake\" -E make_directory /home/hasan/KICT_MP_SERVER/catkin_ws/build/test_results/robot_upstart" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart/test --with-xunit --xunit-file=/home/hasan/KICT_MP_SERVER/catkin_ws/build/test_results/robot_upstart/nosetests-test.xml"
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart && ../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/catkin/cmake/test/run_tests.py /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/test_results/robot_upstart/nosetests-test.xml "\"/usr/bin/cmake\" -E make_directory /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/test_results/robot_upstart" "/usr/bin/nosetests-2.7 -P --process-timeout=60 --where=/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart/test --with-xunit --xunit-file=/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/test_results/robot_upstart/nosetests-test.xml"
 
 run_tests_robot_upstart_nosetests_test: robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test
 run_tests_robot_upstart_nosetests_test: robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/build.make
@@ -67,10 +67,10 @@ robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/build: run_t
 .PHONY : robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/build
 
 robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/clean:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/cmake_clean.cmake
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/cmake_clean.cmake
 .PHONY : robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/clean
 
 robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/depend:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/robot_upstart /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart /home/hasan/KICT_MP_SERVER/catkin_ws/build/robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/robot_upstart /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : robot_upstart/CMakeFiles/run_tests_robot_upstart_nosetests_test.dir/depend
 

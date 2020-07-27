@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/src
+CMAKE_SOURCE_DIR = /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
+CMAKE_BINARY_DIR = /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build
 
 # Utility rule file for _rosserial_arduino_generate_messages_check_deps_Adc.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/hasan/KICT_MP_SERVER/catkin_ws/build
 include rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/progress.make
 
 rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py rosserial_arduino /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_arduino/msg/Adc.msg 
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino && ../../catkin_generated/env_cached.sh /usr/bin/python2 /opt/ros/melodic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py rosserial_arduino /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_arduino/msg/Adc.msg 
 
 _rosserial_arduino_generate_messages_check_deps_Adc: rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc
 _rosserial_arduino_generate_messages_check_deps_Adc: rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/build.make
@@ -67,10 +67,10 @@ rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_
 .PHONY : rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/build
 
 rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/clean:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino && $(CMAKE_COMMAND) -P CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/cmake_clean.cmake
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino && $(CMAKE_COMMAND) -P CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/cmake_clean.cmake
 .PHONY : rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/clean
 
 rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/depend:
-	cd /home/hasan/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/KICT_MP_SERVER/catkin_ws/src /home/hasan/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_arduino /home/hasan/KICT_MP_SERVER/catkin_ws/build /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino /home/hasan/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/rosserial-noetic-devel/rosserial_arduino /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino /home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : rosserial-noetic-devel/rosserial_arduino/CMakeFiles/_rosserial_arduino_generate_messages_check_deps_Adc.dir/depend
 

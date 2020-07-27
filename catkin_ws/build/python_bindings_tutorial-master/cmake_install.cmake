@@ -1,8 +1,8 @@
-# Install script for directory: /home/hasan/KICT_MP_SERVER/catkin_ws/src/python_bindings_tutorial-master
+# Install script for directory: /home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/python_bindings_tutorial-master
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/hasan/KICT_MP_SERVER/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/hasan/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/catkin_generated/safe_execute_install.cmake")
+  include("/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/catkin_generated/safe_execute_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/catkin_generated/installspace/python_bindings_tutorial.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/catkin_generated/installspace/python_bindings_tutorial.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/python_bindings_tutorial/cmake" TYPE FILE FILES
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/catkin_generated/installspace/python_bindings_tutorialConfig.cmake"
-    "/home/hasan/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/catkin_generated/installspace/python_bindings_tutorialConfig-version.cmake"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/catkin_generated/installspace/python_bindings_tutorialConfig.cmake"
+    "/home/hasan/programs/MyProjects/KICT_MP_SERVER/catkin_ws/build/python_bindings_tutorial-master/catkin_generated/installspace/python_bindings_tutorialConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/python_bindings_tutorial" TYPE FILE FILES "/home/hasan/KICT_MP_SERVER/catkin_ws/src/python_bindings_tutorial-master/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/python_bindings_tutorial" TYPE FILE FILES "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/src/python_bindings_tutorial-master/package.xml")
 endif()
 

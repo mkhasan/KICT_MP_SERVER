@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/rosserial_mbed_generate_messages_py"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/msg/_Adc.py"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/srv/_Test.py"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/msg/__init__.py"
-  "/home/hasan/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/srv/__init__.py"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/msg/_Adc.py"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/srv/_Test.py"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/msg/__init__.py"
+  "/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel/lib/python2.7/dist-packages/rosserial_mbed/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.
