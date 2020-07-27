@@ -1,0 +1,6 @@
+#! /usr/bin/env python
+
+import cam_checker.console
+
+if __name__ == '__main__':
+	cam_checker.console.check()

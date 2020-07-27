@@ -1,0 +1,8 @@
+prefix=/home/hasan/MyProjects/KICT_MP_SERVER/catkin_ws/devel
+
+Name: erp42_control
+Description: Description of erp42_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
