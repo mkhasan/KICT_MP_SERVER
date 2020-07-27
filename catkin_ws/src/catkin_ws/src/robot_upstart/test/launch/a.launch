@@ -1,3 +1,0 @@
-<launch>
-	<include file="$(find client_interface)/launch/client_interface.launch" />
-</launch>

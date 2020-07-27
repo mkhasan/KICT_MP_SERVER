@@ -1,6 +1,0 @@
-#! /usr/bin/env python
-
-import cam_checker.hello
-
-if __name__ == '__main__':
-	cam_checker.hello.say('my friend!')
